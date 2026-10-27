@@ -1,0 +1,20 @@
+# Ferramentas locais pesadas (JDK 17, Android SDK, APKs de terceiros)
+tools/
+
+# Backups locais de fábrica (APKs pesados do dispositivo)
+backups/removed-apps/
+backups/device-backup/*.apk
+backups/*.apk
+
+# Arquivos temporários de compilação
+android-launcher/build/gen/
+android-launcher/build/obj/
+android-launcher/build/dex/
+android-launcher/build/out/
+android-launcher/build/classes.jar
+android-launcher/build/*.keystore
+
+# Arquivos temporários da raiz
+screen_top.png
+screen_vol.png
+*.class
